@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.main {
+  text-align: center;
+  background: #1f1f1f;
+  padding: 2rem 4rem;
+  border-radius: 8px;
+}
+
+.main h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.main p {
+  margin: 0;
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+
+.btn {
+  background: #17A2B8;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 0 0.6rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.btn_reset {
+  margin-top: 1.5rem;
+  background: #DC3545;
+}
